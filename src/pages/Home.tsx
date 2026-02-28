@@ -61,7 +61,7 @@ export default function Home() {
                         Join the next generation of conservation.
                     </motion.div>
 
-                    <h1 className="font-display font-bold text-6xl md:text-8xl lg:text-[7rem] text-white mb-6 leading-[1.05] tracking-tight drop-shadow-2xl">
+                    <h1 className="font-display font-bold text-5xl sm:text-6xl md:text-8xl lg:text-[7rem] text-white mb-6 leading-[1.05] tracking-tight drop-shadow-2xl">
                         For the Wild,<br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-primary to-emerald-100 italic pr-4">
                             By the Youth
@@ -150,10 +150,10 @@ export default function Home() {
                         </div>
 
                         {/* Bento Grid layout */}
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[280px]">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:auto-rows-[280px]">
 
                             {/* Large Featured Card */}
-                            <div className="md:col-span-2 md:row-span-2 relative rounded-[32px] overflow-hidden group shadow-2xl">
+                            <div className="h-[400px] md:h-auto md:col-span-2 md:row-span-2 relative rounded-[32px] overflow-hidden group shadow-2xl">
                                 <img
                                     src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200"
                                     alt="Youth volunteer helping with conservation"
@@ -183,7 +183,7 @@ export default function Home() {
                                     whileInView={{ opacity: 1, x: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: 0.1 * idx, duration: 0.5 }}
-                                    className={`${feature.color} rounded-[32px] p-8 flex flex-col justify-between group overflow-hidden relative transition-transform hover:-translate-y-2 shadow-xl hover:shadow-2xl`}
+                                    className={`${feature.color} h-[280px] md:h-auto rounded-[32px] p-8 flex flex-col justify-between group overflow-hidden relative transition-transform hover:-translate-y-2 shadow-xl hover:shadow-2xl`}
                                 >
                                     <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
 
