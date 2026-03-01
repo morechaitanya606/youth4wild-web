@@ -18,10 +18,10 @@ export default function Contact() {
                     </p>
                 </motion.div>
 
-                <div className="max-w-3xl mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
                     {/* Contact Info */}
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.2 }}
                         className="bg-gray-50 dark:bg-gray-800/50 rounded-3xl p-8 lg:p-12 border border-gray-100 dark:border-gray-800"
@@ -51,7 +51,21 @@ export default function Contact() {
                         </div>
                     </motion.div>
 
-
+                    {/* Partner With Us */}
+                    <motion.div
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.3 }}
+                        className="bg-white dark:bg-gray-800 rounded-3xl p-8 lg:p-12 shadow-xl border border-gray-100 dark:border-gray-700 flex flex-col justify-center"
+                    >
+                        <h3 className="text-3xl font-display font-bold text-gray-900 dark:text-white mb-4">Partner with us</h3>
+                        <p className="text-gray-600 dark:text-gray-400 text-lg mb-8 leading-relaxed">
+                            We are looking for wildlife conservation organisations to partner with us and join our mission, helping a large number of enthusiastic youth build their career in wildlife conservation.
+                        </p>
+                        <a href="mailto:youth4wildorg@gmail.com" className="inline-block text-center w-full bg-primary hover:bg-primary-hover text-white font-bold py-4 px-6 rounded-xl transition-colors shadow-lg shadow-primary/30">
+                            Reach out to youth4wildorg@gmail.com for partnerships
+                        </a>
+                    </motion.div>
                 </div>
             </div>
         </div>

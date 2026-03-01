@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Leaf, Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -8,9 +8,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 relative z-10 text-center md:text-left">
                     <div className="col-span-1 md:col-span-1 flex flex-col items-center md:items-start">
                         <Link to="/" className="flex items-center gap-3 group cursor-pointer mb-6">
-                            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-white shadow-lg">
-                                <Leaf size={20} />
-                            </div>
+                            <img src="/logo.jpeg" alt="Youth4Wild Logo" className="w-10 h-10 rounded-full object-cover shadow-lg group-hover:scale-105 transition-transform duration-300 border-2 border-white/20" />
                             <span className="font-display font-bold text-xl text-gray-900 dark:text-white tracking-wide">
                                 Youth4Wild
                             </span>

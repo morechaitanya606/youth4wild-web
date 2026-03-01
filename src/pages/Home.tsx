@@ -145,7 +145,7 @@ export default function Home() {
                                 Make a <span className="text-primary italic">Real Impact</span>
                             </h2>
                             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg leading-relaxed">
-                                Join a global community of young conservationists. Discover local initiatives, educational resources, and fieldwork opportunities designed to save wildlife.
+                                Join a community of young conservationists. Connect with like-minded individuals, discover resources and find opportunities in conservation.
                             </p>
                         </div>
 
