@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom';
 import { HeartHandshake, Globe, ShieldCheck, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-export default function Volunteer() {
+export default function Contribute() {
     const steps = [
         {
             icon: <Globe size={32} className="text-white" />,
@@ -41,7 +40,7 @@ export default function Volunteer() {
                         Active recruitment
                     </div>
                     <h1 className="text-4xl md:text-6xl font-display font-extrabold text-gray-900 dark:text-white mb-6">
-                        Become a <span className="text-primary">Volunteer</span>
+                        Become a <span className="text-primary">Contributor</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400">
                         Action is the antidote to despair. Roll up your sleeves, head into the field, and be part of the generation that heals the planet.
@@ -91,12 +90,12 @@ export default function Volunteer() {
                             Join thousands of young people who are already out there protecting wildlife, rebuilding habitats, and collecting crucial data.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <Link to="/opportunities" className="bg-primary hover:bg-primary-hover text-white font-bold py-4 px-8 rounded-full transition-colors shadow-lg shadow-primary/30 flex items-center justify-center gap-2">
-                                Browse Field Work <ArrowRight size={20} />
-                            </Link>
-                            <Link to="/contact" className="bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-full transition-colors flex items-center justify-center">
-                                Ask a Question
-                            </Link>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJInfhriQagtFmU3LbBWPsrho78-UkueNlfG1vHf29SIGsOA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary-hover text-white font-bold py-4 px-8 rounded-full transition-colors shadow-lg shadow-primary/30 flex items-center justify-center gap-2">
+                                Give us your suggestions <ArrowRight size={20} />
+                            </a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLRG4a2OOFbwGB2xjgRkHVS9QojYcVm5849aQ4-1OPtFq57Q/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-full transition-colors flex items-center justify-center">
+                                Sign up to be a team member
+                            </a>
                         </div>
                     </div>
                 </motion.div>

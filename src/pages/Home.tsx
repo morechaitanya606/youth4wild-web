@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Search, GraduationCap, HeartHandshake, Users, ArrowRight, PlayCircle } from 'lucide-react';
+import { Search, GraduationCap, HeartHandshake, Users, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -16,10 +16,10 @@ export default function Home() {
             color: 'bg-primary'
         },
         {
-            title: 'Volunteer',
+            title: 'Contribute',
             description: 'Find global field projects',
             icon: <HeartHandshake size={28} className="text-white mb-4 group-hover:scale-110 transition-transform duration-500 ease-out" />,
-            link: '/volunteer',
+            link: '/contribute',
             color: 'bg-accent'
         },
         {
@@ -68,7 +68,7 @@ export default function Home() {
                         </span>
                     </h1>
                     <p className="text-white/80 text-lg md:text-2xl mb-12 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md">
-                        Empowering the next generation to protect our planet's biodiversity through immersive conservation experiences.
+                        Empowering the next generation to protect our planet's biodiversity through youth-led action, innovation and networking.
                     </p>
 
                     <div className="flex flex-col items-center justify-center gap-4 relative h-16 w-full">
@@ -152,28 +152,7 @@ export default function Home() {
                         {/* Bento Grid layout */}
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:auto-rows-[280px]">
 
-                            {/* Large Featured Card */}
-                            <div className="h-[400px] md:h-auto md:col-span-2 md:row-span-2 relative rounded-[32px] overflow-hidden group shadow-2xl">
-                                <img
-                                    src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200"
-                                    alt="Youth volunteer helping with conservation"
-                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent"></div>
 
-                                <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full">
-                                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/90 text-white text-xs font-bold uppercase tracking-wider mb-6">
-                                        <PlayCircle size={14} /> Featured Story
-                                    </div>
-                                    <h3 className="font-display font-bold text-3xl md:text-4xl text-white mb-4 line-clamp-2">
-                                        The Frontlines of Forest Restoration in the Amazon
-                                    </h3>
-                                    <Link to="/learn" className="inline-flex items-center gap-2 text-white/90 hover:text-white font-semibold group/link">
-                                        Read the full story
-                                        <ArrowRight size={20} className="group-hover/link:translate-x-1 transition-transform" />
-                                    </Link>
-                                </div>
-                            </div>
 
                             {/* Smaller Action Cards */}
                             {features.map((feature, idx) => (
@@ -202,6 +181,23 @@ export default function Home() {
                                 </motion.div>
                             ))}
                         </div>
+                    </motion.div>
+
+                    {/* Partner With Us Row */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.3, duration: 0.8 }}
+                        className="mt-20 border-t border-gray-200 dark:border-gray-800 pt-16 text-center max-w-4xl mx-auto"
+                    >
+                        <h3 className="font-display font-bold text-3xl text-gray-900 dark:text-white mb-4">Partner with us</h3>
+                        <p className="text-gray-600 dark:text-gray-400 text-lg mb-8">
+                            We are looking for wildlife conservation organisations to partner with us and join our mission, helping a large number of enthusiastic youth build their career in wildlife conservation.
+                        </p>
+                        <a href="mailto:youth4wildorg@gmail.com" className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 dark:bg-white dark:hover:bg-gray-100 text-white dark:text-gray-900 font-bold py-4 px-8 rounded-full transition-colors shadow-lg">
+                            Reach out for partnerships <ArrowRight size={20} />
+                        </a>
                     </motion.div>
                 </div>
             </section>

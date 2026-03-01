@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Opportunities from './pages/Opportunities';
 import Contact from './pages/Contact';
 import Learn from './pages/Learn';
-import Volunteer from './pages/Volunteer';
+import Contribute from './pages/Contribute';
 import Connect from './pages/Connect';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="opportunities" element={<Opportunities />} />
           <Route path="contact" element={<Contact />} />
           <Route path="learn" element={<Learn />} />
-          <Route path="volunteer" element={<Volunteer />} />
+          <Route path="contribute" element={<Contribute />} />
           <Route path="connect" element={<Connect />} />
         </Route>
       </Routes>

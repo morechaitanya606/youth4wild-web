@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Leaf, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
@@ -23,6 +23,7 @@ export default function Navbar() {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'Opportunities', path: '/opportunities' },
+        { name: 'Contribute', path: '/contribute' },
         { name: 'Contact', path: '/contact' },
     ];
 
@@ -34,9 +35,7 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     <Link to="/" className="flex-shrink-0 flex items-center gap-3 group cursor-pointer">
-                        <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
-                            <Leaf size={24} />
-                        </div>
+                        <img src="/logo.jpeg" alt="Youth4Wild Logo" className="w-12 h-12 rounded-full object-cover shadow-lg group-hover:scale-105 transition-transform duration-300 border-2 border-white/20" />
                         <span className={`font-display font-bold text-xl tracking-wide ${!isHome ? 'text-gray-900 dark:text-white' : 'text-white'}`}>
                             Youth4Wild
                         </span>
@@ -52,12 +51,14 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
-                            to="/volunteer"
+                        <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdLRG4a2OOFbwGB2xjgRkHVS9QojYcVm5849aQ4-1OPtFq57Q/viewform?usp=publish-editor"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-primary hover:bg-primary-hover text-white px-6 py-2.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-primary/50 transform hover:-translate-y-0.5"
                         >
-                            Get Started
-                        </Link>
+                            Get involved
+                        </a>
                     </div>
 
                     <div className="md:hidden flex items-center">
@@ -84,12 +85,14 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
-                            to="/volunteer"
+                        <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdLRG4a2OOFbwGB2xjgRkHVS9QojYcVm5849aQ4-1OPtFq57Q/viewform?usp=publish-editor"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="mt-4 px-8 py-3 w-max bg-primary text-white rounded-full font-semibold"
                         >
-                            Get Started
-                        </Link>
+                            Get involved
+                        </a>
                     </div>
                 </div>
             )}
