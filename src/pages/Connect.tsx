@@ -29,9 +29,9 @@ export default function Connect() {
                     >
                         <div className="aspect-[4/5] overflow-hidden relative">
                             <img src="/team/Ishaan Acharya.jpeg" alt="Ishaan Acharya" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <div className="flex gap-3 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 md:opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                <div className="flex gap-3 mb-3 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                     <a href="https://www.instagram.com/ishaanacharya11/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                                     </a>
@@ -57,9 +57,9 @@ export default function Connect() {
                     >
                         <div className="aspect-[4/5] overflow-hidden relative">
                             <img src="/team/Ratnakar Hiremath.jpeg" alt="Ratnakar Hiremath" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <div className="flex gap-3 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 md:opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                <div className="flex gap-3 mb-3 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                     <a href="https://www.instagram.com/ratnakar.hiremath?igsh=MW9weHduMGlyajZkeQ==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                                     </a>
@@ -85,9 +85,9 @@ export default function Connect() {
                     >
                         <div className="aspect-[4/5] overflow-hidden relative">
                             <img src="/team/Reva Murudkar.jpeg" alt="Reva Murudkar" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <div className="flex gap-3 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 md:opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                <div className="flex gap-3 mb-3 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                     <a href="https://www.instagram.com/whiskersandscrubs?igsh=MTZuNDUzaDFjbXhwaw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                                     </a>
@@ -113,9 +113,9 @@ export default function Connect() {
                     >
                         <div className="aspect-[4/5] overflow-hidden relative">
                             <img src="/team/Shantanu Deshpande.jpeg" alt="Shantanu Deshpande" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
-                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                <div className="flex gap-3 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 md:opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
+                            <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                <div className="flex gap-3 mb-3 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                                     <a href="https://www.instagram.com/shantanu.deshpande_?igsh=MTZ6dTZ5Z2UyNzVrZQ==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                                     </a>
