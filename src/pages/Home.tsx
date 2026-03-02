@@ -156,29 +156,27 @@ export default function Home() {
 
                             {/* Smaller Action Cards */}
                             {features.map((feature, idx) => (
-                                <motion.div
-                                    key={feature.title}
-                                    initial={{ opacity: 0, x: 20 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: 0.1 * idx, duration: 0.5 }}
-                                    className={`${feature.color} h-[280px] md:h-auto rounded-[32px] p-8 flex flex-col justify-between group overflow-hidden relative transition-transform hover:-translate-y-2 shadow-xl hover:shadow-2xl`}
-                                >
-                                    <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
-
-                                    <div>
-                                        {feature.icon}
-                                        <h3 className="font-display font-bold text-white text-2xl mb-2">{feature.title}</h3>
-                                        <p className="text-white/80 text-sm font-medium">{feature.description}</p>
-                                    </div>
-
-                                    <Link
-                                        to={feature.link}
-                                        className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white group-hover:bg-white group-hover:text-gray-900 transition-colors duration-300 mt-4 self-end"
+                                <Link to={feature.link} key={feature.title} className="block group">
+                                    <motion.div
+                                        initial={{ opacity: 0, x: 20 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: 0.1 * idx, duration: 0.5 }}
+                                        className={`${feature.color} h-[280px] md:h-auto rounded-[32px] p-8 flex flex-col justify-between overflow-hidden relative transition-transform shadow-xl group-hover:shadow-2xl group-hover:-translate-y-2 cursor-pointer`}
                                     >
-                                        <ArrowRight size={24} className="-rotate-45 group-hover:rotate-0 transition-transform duration-300" />
-                                    </Link>
-                                </motion.div>
+                                        <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
+
+                                        <div>
+                                            {feature.icon}
+                                            <h3 className="font-display font-bold text-white text-2xl mb-2">{feature.title}</h3>
+                                            <p className="text-white/80 text-sm font-medium">{feature.description}</p>
+                                        </div>
+
+                                        <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white group-hover:bg-white group-hover:text-gray-900 transition-colors duration-300 mt-4 self-end">
+                                            <ArrowRight size={24} className="-rotate-45 group-hover:rotate-0 transition-transform duration-300" />
+                                        </div>
+                                    </motion.div>
+                                </Link>
                             ))}
                         </div>
                     </motion.div>
