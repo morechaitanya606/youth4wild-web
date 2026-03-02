@@ -112,7 +112,7 @@ export default function Connect() {
                         className="bg-white dark:bg-gray-800 rounded-[32px] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group"
                     >
                         <div className="aspect-[4/5] overflow-hidden relative">
-                            <img src="/team/Shantanu Deshpande.jpeg" alt="Shantanu Deshpande" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <img src="/team/Shantanu Deshpande1.jpeg" alt="Shantanu Deshpande" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 md:opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
                             <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-0 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                                 <div className="flex gap-3 mb-3 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
