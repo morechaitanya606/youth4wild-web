@@ -16,8 +16,8 @@ export default function Home() {
             color: 'bg-primary'
         },
         {
-            title: 'Contribute',
-            description: 'Find global field projects',
+            title: 'About us',
+            description: 'Learn about our mission and pillars',
             icon: <HeartHandshake size={28} className="text-white mb-4 group-hover:scale-110 transition-transform duration-500 ease-out" />,
             link: '/contribute',
             color: 'bg-accent'
@@ -37,7 +37,7 @@ export default function Home() {
             <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/80 z-[1]"></div>
                 <img
-                    src="/bg-hero.jpg"
+                    src="/bg-hero-opt.jpg"
                     alt="Wild dogs walking on a road in nature"
                     className="w-full h-full object-cover animate-ken-burns brightness-[0.80] dark:brightness-50"
                 />

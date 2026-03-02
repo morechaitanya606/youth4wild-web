@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import { Instagram, Mail } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -14,39 +14,27 @@ export default function Footer() {
                             </span>
                         </Link>
                         <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-6">
-                            Empowering the next generation to protect our planet's biodiversity through immersive conservation experiences.
+                            Youth4Wild is a youth-led platform igniting passion for wildlife conservation among students and young professionals from different disciplines, primarily based in India.
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Facebook size={20} /></a>
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Twitter size={20} /></a>
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Instagram size={20} /></a>
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Mail size={20} /></a>
+                            <a href="http://instagram.com/youth4wild/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors"><Instagram size={20} /></a>
+                            <a href="https://www.linkedin.com/in/youth-for-wild-1865093b4" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                            <a href="mailto:contact@youth4wild.org" className="text-gray-400 hover:text-primary transition-colors"><Mail size={20} /></a>
                         </div>
-                    </div>
-
-                    <div>
-                        <h4 className="font-bold text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-sm">Programs</h4>
-                        <ul className="space-y-3">
-                            <li><Link to="/opportunities" className="text-gray-500 hover:text-primary transition-colors text-sm">Field Work</Link></li>
-                            <li><Link to="/opportunities" className="text-gray-500 hover:text-primary transition-colors text-sm">Marine Conservation</Link></li>
-                            <li><Link to="/learn" className="text-gray-500 hover:text-primary transition-colors text-sm">Educational Resources</Link></li>
-                            <li><Link to="/volunteer" className="text-gray-500 hover:text-primary transition-colors text-sm">Virtual Volunteering</Link></li>
-                        </ul>
                     </div>
 
                     <div>
                         <h4 className="font-bold text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-sm">Community</h4>
                         <ul className="space-y-3">
-                            <li><Link to="/connect" className="text-gray-500 hover:text-primary transition-colors text-sm">Member Directory</Link></li>
-                            <li><Link to="/connect" className="text-gray-500 hover:text-primary transition-colors text-sm">Forums & Discussions</Link></li>
-                            <li><Link to="/contact" className="text-gray-500 hover:text-primary transition-colors text-sm">Partner with Us</Link></li>
-                            <li><Link to="/contact" className="text-gray-500 hover:text-primary transition-colors text-sm">Careers</Link></li>
+                            <li><a href="#" className="text-gray-500 hover:text-primary transition-colors text-sm">Get involved</a></li>
+                            <li><a href="mailto:youth4wildorg@gmail.com" className="text-gray-500 hover:text-primary transition-colors text-sm">Partner with us</a></li>
+                            <li><a href="#" className="text-gray-500 hover:text-primary transition-colors text-sm">Suggestions</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="font-bold text-gray-900 dark:text-white mb-6 uppercase tracking-wider text-sm">Newsletter</h4>
-                        <p className="text-gray-500 dark:text-gray-400 text-sm mb-4">Stay updated with our latest expeditions and news.</p>
+                        <p className="text-gray-500 dark:text-gray-400 text-sm mb-4">Stay tuned for more</p>
                         <form className="flex flex-col sm:flex-row gap-2">
                             <input
                                 type="email"

@@ -18,8 +18,11 @@ export default function Opportunities() {
                         Exciting <span className="text-primary italic font-light">Opportunities</span> <br className="hidden md:block" /> Coming Soon
                     </h1>
 
-                    <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 font-body leading-relaxed">
-                        We're currently developing a comprehensive directory of global conservation field projects and volunteer programs. Check back soon!
+                    <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 font-body leading-relaxed mb-8">
+                        We connect aspiring conservationists with active wildlife opportunities across India. Leveraging our team's network and valued partners, we showcase these openings on our platform—tailored for youth members ready to make an impact.
+                    </p>
+                    <p className="text-xs text-gray-500 dark:text-gray-500 italic max-w-xl mx-auto">
+                        Disclaimer: These listings are curated by Team Youth4Wild from external sources; we do not create them
                     </p>
                 </motion.div>
             </div>
